@@ -11,6 +11,7 @@
 		033DC575284934570061DC22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033DC574284934570061DC22 /* ContentView.swift */; };
 		033DC577284934580061DC22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033DC576284934580061DC22 /* Assets.xcassets */; };
 		033DC57A284934580061DC22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033DC579284934580061DC22 /* Preview Assets.xcassets */; };
+		033DC5822849379F0061DC22 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033DC5812849379F0061DC22 /* APIResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		033DC574284934570061DC22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		033DC576284934580061DC22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		033DC579284934580061DC22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		033DC5812849379F0061DC22 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		033DC571284934570061DC22 /* Weatherly */ = {
 			isa = PBXGroup;
 			children = (
+				033DC580284937950061DC22 /* Models */,
 				033DC572284934570061DC22 /* WeatherlyApp.swift */,
 				033DC574284934570061DC22 /* ContentView.swift */,
 				033DC576284934580061DC22 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				033DC579284934580061DC22 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		033DC580284937950061DC22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				033DC5812849379F0061DC22 /* APIResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				033DC575284934570061DC22 /* ContentView.swift in Sources */,
 				033DC573284934570061DC22 /* WeatherlyApp.swift in Sources */,
+				033DC5822849379F0061DC22 /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
